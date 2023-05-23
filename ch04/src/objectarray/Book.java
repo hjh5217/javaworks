@@ -11,12 +11,12 @@ public class Book {
 		this.author = author;
 	}
 	
-	void bookInfo() {
+	public void bookInfo() {
 		System.out.print(bookName+", ");
 		System.out.println(author);
 	}
 	
-	void setBookName(String bookName) {
+	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
 	public String getBookName() {

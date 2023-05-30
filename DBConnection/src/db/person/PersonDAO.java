@@ -105,7 +105,7 @@ public class PersonDAO {
 			pstmt.setString(2, person.getName());
 			pstmt.setInt(3, person.getAge());
 			pstmt.setString(4, person.getUserId());
-			pstmt.executeUpdate();
+			pstmt.executeUpdate(); // 실행
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
